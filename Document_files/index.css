@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* #container {
+  position: relative;
+} */
+.top-left {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  top: 60px;
+  left: 70px;
+  font-size: 40px;
+  font-style: italic;
+}
+#kadr {
+  background-color: rgb(18, 233, 233);
+  /* padding: 15px; */
+  padding: 20px;
+}
+
+#matn {
+  width: 75%;
+  text-align: justify;
+  position: relative;
+  left: 150px;
+  top: 20px;
+}
+/* #iran {
+  width: 1000px;
+  height: 500px;
+  font-size: 40px;
+} */
+
+#aks {
+  width: 100%;
+  height: 30vh;
+}
+
+.hava {
+  position: relative;
+  left: 150px;
+  top: 80px;
+}
+
+.yy {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+.gg {
+  position: absolute;
+  top: 160px;
+  /* left: 170px; */
+  right: 120px;
+}
+
+.oo {
+  position: relative;
+
+  font-size: 30px;
+}
+
+/* .pp {
+  background-color: rgb(189, 29, 29);
+  width: 100vw;
+  height: 350px;
+  top: 100px;
+} */
+
+#circle {
+  width: 30px;
+  height: 30px;
+  background: rgb(175, 214, 224);
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+  position: absolute;
+  left: 130px;
+  top: 10px;
+  color: blueviolet;
+}
